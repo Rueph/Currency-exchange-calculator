@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pesa Change</title>
+    <link rel="stylesheet" href="index.css">
+   
+
+</head>
+<body>
+    <img src="img/exchange logo.webp" alt="Pesa Change" class="logo" >
+    <h1>Pesa Change</h1>
+    <p>Please choose the currency and the amounts to get the exchange rate.</p>
+    <div class="container">
+        <div class="currency"> 
+        <select id="currency-1">
+            <option value="KES" selected>Kenyan Shilling (KES)</option>
+            <option value="UGX">Ugandan Shilling (UGX)</option>
+            <option value="TZS">Tanzanian Shilling (TZS)</option>
+            <option value="RWF">Rwandan Franc (RWF)</option>
+            <option value="BIF">Burundian Franc (BIF)</option>
+            <option value="ETB">Ethiopian Birr (ETB)</option>
+            <option value="USD" >US Dollar (USD)</option>
+            <option value="EUR">Euro (EUR)</option>
+            <option value="GBP">British Pound (GBP)</option>
+            <option value="JPY">Japanese Yen (JPY)</option>
+            <option value="CHF">Swiss Franc (CHF)</option>
+            <option value="CAD">Canadian Dollar (CAD)</option>
+            <option value="AUD">Australian Dollar (AUD)</option>
+            <option value="NZD">New Zealand Dollar (NZD)</option>
+            <option value="CNY">Chinese Yuan (CNY)</option>
+            <option value="INR">Indian Rupee (INR)</option>
+            <option value="SGD">Singapore Dollar (SGD)</option>
+            <option value="KRW">South Korean Won (KRW)</option>
+            <option value="THB">Thai Baht (THB)</option>
+            <option value="MYR">Malaysian Ringgit (MYR)</option>
+            <option value="AED">UAE Dirham (AED)</option>
+            <option value="SAR">Saudi Riyal (SAR)</option>
+            <option value="ILS">Israeli Shekel (ILS)</option>
+            <option value="ZAR">South African Rand (ZAR)</option>
+            <option value="NGN">Nigerian Naira (NGN)</option>
+            <option value="EGP">Egyptian Pound (EGP)</option>
+            <option value="BRL">Brazilian Real (BRL)</option>
+            <option value="MXN">Mexican Peso (MXN)</option>
+            <option value="ARS">Argentinian Peso (ARS)</option>
+</select>
+<input type="number" id="amount-1" placeholder="0" value="1">
+</div>
+
+
+<div class="swap-rate-container">
+    <button class="btn" id="rate">Swap</button>
+    <div class="rate" id="rate"></div>
+</div>
+
+
+
+<div class="currency">
+    <select id="Currency-2">
+        <option value="KES" selected>Kenyan Shilling (KES)</option>
+            <option value="UGX">Ugandan Shilling (UGX)</option>
+            <option value="TZS">Tanzanian Shilling (TZS)</option>
+            <option value="RWF">Rwandan Franc (RWF)</option>
+            <option value="BIF">Burundian Franc (BIF)</option>
+            <option value="ETB">Ethiopian Birr (ETB)</option>
+            <option value="USD" >US Dollar (USD)</option>
+            <option value="EUR" selected>Euro (EUR)</option>
+            <option value="GBP">British Pound (GBP)</option>
+            <option value="JPY">Japanese Yen (JPY)</option>
+            <option value="CHF">Swiss Franc (CHF)</option>
+            <option value="CAD">Canadian Dollar (CAD)</option>
+            <option value="AUD">Australian Dollar (AUD)</option>
+            <option value="NZD">New Zealand Dollar (NZD)</option>
+            <option value="CNY">Chinese Yuan (CNY)</option>
+            <option value="INR">Indian Rupee (INR)</option>
+            <option value="SGD">Singapore Dollar (SGD)</option>
+            <option value="KRW">South Korean Won (KRW)</option>
+            <option value="THB">Thai Baht (THB)</option>
+            <option value="MYR">Malaysian Ringgit (MYR)</option>
+            <option value="AED">UAE Dirham (AED)</option>
+            <option value="SAR">Saudi Riyal (SAR)</option>
+            <option value="ILS">Israeli Shekel (ILS)</option>
+            <option value="ZAR">South African Rand (ZAR)</option>
+            <option value="NGN">Nigerian Naira (NGN)</option>
+            <option value="EGP">Egyptian Pound (EGP)</option>
+            <option value="BRL">Brazilian Real (BRL)</option>
+            <option value="MXN">Mexican Peso (MXN)</option>
+            <option value="ARS">Argentinian Peso (ARS)</option>
+    </select>
+<input type="number"id="amount-2" placeholder="0" min="0">
+
+</div>
+       
+
+        
+    </div>
+
+    
+
+
+  
+    <script src="script.js"></script>
+</body>
+</html>
